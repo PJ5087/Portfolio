@@ -1,0 +1,46 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    /* background-color: black; */
+    color: #fff;
+  }
+  
+  .navbar-logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  .git{
+    color: black;
+  }
+  
+  .navbar-menu a {
+    text-decoration: none;
+    /* color: #fff; */
+    color: black;
+    font-weight: bold;
+  
+    margin-left: 1.5rem;
+    font-size: 1rem;
+  }
+  
+  .navbar-menu a:hover {
+    text-decoration: underline;
+  }
+  
+ 
+  

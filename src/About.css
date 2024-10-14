@@ -1,0 +1,131 @@
+/* Container for the entire about page */
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* About me section styling */
+.about-me {
+  margin-bottom: 40px;
+  border-radius: 8px;
+}
+
+.about-me h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.about-me p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Skills and Technologies section styling */
+.skills-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.skills, .technologies {
+  flex-basis: 48%;
+}
+
+.skills h2, .technologies h2 {
+  font-size: 1.75rem;
+  margin-bottom: 15px;
+}
+
+.skills ul, .technologies ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills li, .technologies li {
+  background-color: #e0f7fa;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about {
+  text-align: center;
+}
+
+/* Media Queries */
+
+/* Tablets and smaller devices (width <= 768px) */
+@media (max-width: 768px) {
+  .about-me h1 {
+      font-size: 2rem; /* Reduce header size */
+  }
+
+  .about-me p {
+      font-size: 1rem; /* Slightly reduce font size */
+  }
+
+  .skills-section {
+      flex-direction: column; /* Stack skills and technologies vertically */
+  }
+
+  .skills, .technologies {
+      flex-basis: 100%; /* Full width on smaller screens */
+      margin-bottom: 20px; /* Add spacing between sections */
+  }
+
+  .skills h2, .technologies h2 {
+      font-size: 1.5rem; /* Reduce section heading size */
+  }
+
+  .skills li, .technologies li {
+      font-size: 1rem; /* Adjust list item font size */
+  }
+}
+
+/* Mobile devices (width <= 480px) */
+@media (max-width: 480px) {
+  .about-me h1 {
+      font-size: 1.75rem; /* Further reduce header size */
+  }
+
+  .about-me p {
+      font-size: 0.95rem; /* Further reduce paragraph font size */
+  }
+
+  .skills h2, .technologies h2 {
+      font-size: 1.25rem; /* Reduce heading size */
+  }
+
+  .skills li, .technologies li {
+      font-size: 0.9rem; /* Reduce list item size */
+      padding: 8px; /* Adjust padding */
+  }
+
+  .about-container {
+      padding: 15px; /* Reduce container padding for smaller screens */
+  }
+}
+
+/* Large desktops (width >= 1200px) */
+@media (min-width: 1200px) {
+  .about-me h1 {
+      font-size: 3rem; /* Increase header size */
+  }
+
+  .about-me p {
+      font-size: 1.2rem; /* Increase paragraph font size */
+  }
+
+  .skills h2, .technologies h2 {
+      font-size: 2rem; /* Larger section headings */
+  }
+
+  .skills li, .technologies li {
+      font-size: 1.2rem; /* Increase list item size */
+  }
+}

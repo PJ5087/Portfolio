@@ -1,0 +1,45 @@
+
+.contact-sidebar {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #333;
+    color: white;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    transition: left 0.5s ease, right 0.5s ease;
+  }
+  
+  .contact-btn {
+    background: #f5576c;
+    border: none;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 0 10px 10px 0;
+    transition: background 0.3s ease;
+  }
+  
+  .contact-btn:hover {
+    background: #f093fb;
+  }
+  
+  .contact-details {
+    display: none;
+    padding: 15px;
+  }
+  
+  .contact-details.show {
+    display: block;
+  }
+  
+  .contact-sidebar.move-to-right {
+    left: auto;
+    right: 0;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  

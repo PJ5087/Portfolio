@@ -1,0 +1,157 @@
+.contact-page {
+  text-align: center;
+  padding: 15px;
+  background-color: #3F4A51;
+}
+
+.contact-content {
+  margin-top: 20px;
+}
+
+.call-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.call-icon {
+  margin-right: 10px;
+}
+
+.sound {
+  color: white;
+}
+
+.hop {
+  margin-top: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+/* Popup form overlay */
+.popup-form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Popup form styling */
+.popup-form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.popup-form h2 {
+  margin-bottom: 20px;
+}
+
+.popup-form form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.popup-form form input, .popup-form form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.popup-form form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.close-button {
+  margin-top: 10px;
+  padding: 8px 20px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Media Queries */
+
+/* Tablets and smaller devices (width <= 768px) */
+@media (max-width: 768px) {
+  .popup-form {
+    width: 80%; /* Adjust popup width for tablets */
+    padding: 20px;
+  }
+
+  .call-button {
+    font-size: 16px; /* Reduce button font size */
+    padding: 8px 16px; /* Adjust button padding */
+  }
+
+  .contact-page {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .popup-form h2 {
+    font-size: 1.5rem; /* Adjust header size */
+  }
+
+  .popup-form form input, .popup-form form textarea {
+    padding: 6px; /* Adjust form input padding */
+  }
+
+  .popup-form form button[type="submit"] {
+    font-size: 14px; /* Reduce button font size */
+    padding: 8px 16px;
+  }
+}
+
+/* Mobile devices (width <= 480px) */
+@media (max-width: 480px) {
+  .popup-form {
+    width: 90%; /* Further reduce popup width for mobile */
+    padding: 15px;
+  }
+
+  .call-button {
+    font-size: 14px; /* Further reduce button font size */
+    padding: 6px 12px; /* Adjust button padding */
+  }
+
+  .popup-form h2 {
+    font-size: 1.25rem; /* Further reduce header size */
+  }
+
+  .popup-form form input, .popup-form form textarea {
+    padding: 5px; /* Further reduce form input padding */
+  }
+
+  .popup-form form button[type="submit"] {
+    font-size: 12px; /* Further reduce button font size */
+    padding: 6px 12px;
+  }
+
+  .close-button {
+    font-size: 12px; /* Reduce close button font size */
+    padding: 6px 12px;
+  }
+}

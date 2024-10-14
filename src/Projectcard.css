@@ -1,0 +1,39 @@
+.carousel-container {
+    width: 100%;
+    overflow: hidden; /* Hide the overflow so the cards appear to slide in and out */
+    position: relative;
+  }
+  
+  .carousel-track {
+    display: flex;
+    animation: moveLeftToRight 15s linear infinite; /* Animating from left to right */
+  }
+  
+  .card {
+    min-width: 300px;
+    height: 200px;
+    margin: 0 10px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  @keyframes moveLeftToRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .carousel-container:hover .carousel-track {
+    animation-play-state: paused;
+  }
+  

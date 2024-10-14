@@ -1,0 +1,11 @@
+[
+    {
+      "title": "React Router DOM: Navigating the Modern Web",
+      "content": "As web applications grow in complexity, navigating between different views becomes essential. That's where React Router DOM comes in. React Router DOM is a popular library that enables routing in React applications, allowing developers to build single-page applications (SPAs) with seamless navigation."
+    },
+    {
+      "title": "Second Blog Post",
+      "content": "This is the content of the second blog post. It focuses on different aspects of development..."
+    }
+  ]
+  

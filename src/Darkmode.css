@@ -1,0 +1,49 @@
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.navbar {
+    transition: background-color 0.3s ease;
+}
+
+.light-mode .navbar {
+    background-color: #f8f9fa;
+}
+
+.dark-mode .navbar {
+    background-color: #1e1e1e;
+}
+
+.button {
+    padding: 10px; /* Equal padding for all sides */
+    border: none;
+    cursor: pointer;
+    border-radius: 50%; /* Fully rounded */
+    transition: background-color 0.3s ease;
+    width: 40px; /* Set a fixed width */
+    height: 40px; /* Set a fixed height to match width */
+    display: flex; /* Center any content inside */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+
+.light-mode .button {
+    background-color: #007bff;
+    color: white;
+}
+
+.dark-mode .button {
+    background-color: #0056b3;
+    color: white;
+}

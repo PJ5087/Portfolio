@@ -1,0 +1,32 @@
+.footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    /* z-index: -1; */
+  }
+  
+  .footer-social-icons {
+    margin-bottom: 15px;
+  }
+  
+  .footer-icon {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  .footer-icon:hover {
+    color: #ddd;
+  }
+  
+  .footer-address {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-copyright {
+    font-size: 12px;
+  }
+  

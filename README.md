@@ -22,7 +22,6 @@ This is a personal portfolio website built using **React.js** for the frontend, 
 - Node.js
 - Express.js
 - MySQL (for storing contact form submissions)
-- Nodemon (for development purposes)
 
 ## Setup Instructions
 

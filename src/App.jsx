@@ -1,7 +1,7 @@
 import { useLocation } from 'react-router-dom';
 import About from './About.jsx';
 import ProjectCard from './ProjectCard.jsx';
-import Contact from './Contact.jsx';
+// import Contact from './Contact.jsx';
 
 const Layout = ({ children }) => {
   const location = useLocation();
@@ -18,9 +18,9 @@ const Layout = ({ children }) => {
           <div id="project-section" className="project-section">
             <ProjectCard />
           </div>
-          <div id="contact-section">
+          {/* <div id="contact-section">
             <Contact />
-          </div>
+          </div> */}
         </>
       )}
     </>

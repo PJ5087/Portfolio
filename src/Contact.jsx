@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Contact.css';  // Import the CSS file for styling
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   const [showForm, setShowForm] = useState(false);  // State to control the form visibility
